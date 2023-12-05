@@ -1,0 +1,6 @@
+{
+    "primitive_leaves":"bayou_blues:beard_moss_block",
+    "connect_any_radius": true,
+    "does_age": false,
+    "light_requirement": 4
+}

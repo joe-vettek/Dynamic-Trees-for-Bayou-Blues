@@ -1,0 +1,34 @@
+[
+  {
+    "__comment": "Cancel standard tree features from the overworld.",
+    "select": {
+      "name": "bayou_blues:.*"
+    },
+    "cancellers": {
+      "types": [
+        "tree"
+      ],
+      "namespaces": [
+        "minecraft",
+        "bayou_blues"
+      ]
+    }
+  },
+  {
+    "select": {
+      "name": "bayou_blues:.*"
+    },
+    "apply": {
+      "species": {
+        "random": {
+          "dtbayoublues:cypress": 1
+        }
+      },
+      "density": [
+        0.6
+      ],
+      "chance": 1.0,
+      "forestness": 1.0
+    }
+  }
+]

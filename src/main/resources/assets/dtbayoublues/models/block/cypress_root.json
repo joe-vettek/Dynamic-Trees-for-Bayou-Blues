@@ -1,0 +1,6 @@
+{
+  "loader": "dynamictrees:root",
+  "textures": {
+    "bark":"bayou_blues:block/cypress_log"
+  }
+}

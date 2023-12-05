@@ -1,0 +1,69 @@
+{
+  "family": "dtbayoublues:cypress",
+  "tapering": 0.4,
+  "signal_energy": 21.0,
+  "up_probability": 4,
+  "lowest_branch_height": 3,
+  "growth_rate": 0.9,
+  "max_branch_radius": 24,
+  "leaves_properties": "dtbayoublues:cypress",
+  "environment_factors": {
+    "cold": 0.75,
+    "hot": 0.5,
+    "dry": 0.5,
+    "swamp": 1.05
+  },
+  "perfect_biomes": {
+    "types": [
+      "swamp",
+      "overworld"
+    ]
+  },
+  "primitive_sapling": "bayou_blues:cypress_sapling",
+  "always_show_on_waila": false,
+  "generate_seed": true,
+  "generate_sapling": true,
+  "features": [
+    {
+      "name": "vines",
+      "properties": {
+        "quantity": 3,
+        "max_length": 1,
+        "vine_type": "ceiling",
+        "block": "bayou_blues:hanging_cypress_leaves",
+        "fruiting_radius": 5
+      }
+    },
+    {
+      "name": "vines",
+      "properties": {
+        "fruiting_radius": -1
+      }
+    },
+    {
+      "name": "dtbayoublues:vines",
+      "properties": {
+        "quantity": 10,
+        "max_length": 6,
+        "vine_type": "ceiling",
+        "block": "dtbayoublues:beard_moss_leaves",
+        "tip_block": "bayou_blues:beard_moss",
+        "fruiting_radius": -1
+      }
+    },
+    {
+      "name": "alt_leaves",
+      "properties": {
+        "alternative_leaves": "dtbayoublues:beard_moss",
+        "place_chance": 0.0
+      }
+    },
+    "roots",
+    {
+      "name": "dtbayoublues:spines",
+      "properties": {
+        "spine": "bayou_blues:cypress_branch"
+      }
+    }
+  ]
+}

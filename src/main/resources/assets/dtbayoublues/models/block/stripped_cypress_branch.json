@@ -1,0 +1,7 @@
+{
+    "loader":"dynamictrees:branch",
+    "textures":{
+        "bark":"bayou_blues:block/stripped_cypress_log",
+        "rings":"bayou_blues:block/stripped_cypress_log_top"
+    }
+}

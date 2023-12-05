@@ -1,0 +1,8 @@
+{
+  "common_leaves": "dtbayoublues:cypress",
+  "common_species": "dtbayoublues:cypress",
+  "primitive_log": "bayou_blues:cypress_log",
+  "primitive_stripped_log": "bayou_blues:stripped_cypress_log",
+  "max_branch_radius": 24,
+  "generate_surface_root": true
+}
